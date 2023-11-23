@@ -18,6 +18,11 @@ body{
     
 }
 
+.countainer-small{
+    max-width: 960px;
+    margin:0 auto;
+}
+
 h1{
     padding: 30px 0;
 
@@ -62,4 +67,33 @@ h1{
 
 .box{
     display: flex;
+}
+
+.row{
+    display: flex;
+    margin:0 10px;
+    flex-wrap: wrap;
+}   
+
+.col{
+    min-height: 600px;
+    border: 2px dashed blue;
+    flex-basis: calc(100% / 3 - 20px);
+    margin: 10px;
+  
+}
+
+.col-large{
+    flex-basis: 100%;
+    min-height: 200px;
+    border: 2px dashed red;
+}
+
+.card-small{
+    min-height: 600px;
+}
+
+.card-large{
+    min-height: 200px;
+   
 }
