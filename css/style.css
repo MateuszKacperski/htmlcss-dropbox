@@ -20,7 +20,7 @@ body{
 
 .countainer-small{
     max-width: 960px;
-    margin:0 auto;
+    margin:10px auto;
 }
 
 h1{
@@ -30,13 +30,13 @@ h1{
 
 .box-small{
     background-color: crimson;
-    width: 30%;
+    width: 40%;
     min-height: 400px;
 }
 
 .box-large{
     background-color: darkgreen;
-    width: 70%;
+    width: 60%;
     min-height: 400px;
 }
 /* Header*/ 
