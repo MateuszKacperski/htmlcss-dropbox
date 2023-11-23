@@ -20,12 +20,16 @@ body{
 
 .countainer-small{
     max-width: 960px;
-    margin:10px auto;
+    margin:0px auto;
 }
 
 h1{
     padding: 30px 0;
 
+}
+
+.box{
+    display: flex;
 }
 
 .box-small{
@@ -65,9 +69,7 @@ h1{
     background-color: chartreuse;
 }
 
-.box{
-    display: flex;
-}
+/* Main */
 
 .row{
     display: flex;
@@ -119,4 +121,16 @@ h1{
     min-height: 50%;
     flex-basis:50%;
     border:2px black dashed;
+}
+
+.trial{
+    min-height: 200px;
+    background-color: yellow;
+}
+
+.box-medium{
+    min-height: 200px;
+    width: 50%;
+    background-color: aqua;
+    border: 1px black dashed;
 }
