@@ -10,6 +10,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: white;
+    padding-top: 70px;
 }
 
 a{
@@ -47,13 +48,25 @@ h1{
     width: 60%;
     min-height: 400px;
 }
+.box-medium{
+    min-height: 200px;
+    width: 50%;
+    background-color: aqua;
+    border: 1px black dashed;
+}
+
 /* Header*/ 
 
 .navbar{
     min-height: 70px;
+    background-color: white;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
 }
 
 .nav-left{
@@ -146,12 +159,7 @@ h1{
     background-color: yellow;
 }
 
-.box-medium{
-    min-height: 200px;
-    width: 50%;
-    background-color: aqua;
-    border: 1px black dashed;
-}
+
 
 .faq{
     
