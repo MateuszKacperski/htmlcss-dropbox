@@ -17,16 +17,13 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 .countainer-large{
     max-width: 1080px;
     margin:0 auto;
-}
-
-.img{
-    height: 100%;
-    width: auto;
-    display: block;
- 
 }
 
 .countainer-small{
@@ -39,7 +36,13 @@ h1{
     padding: 30px 0;
     text-align: center;
     font-weight: bolder;
+}
 
+h2{
+    font-size: 30px;
+    padding-top:110px;
+    padding-bottom: 55px;
+    font-weight: bolder;
 }
 
 p{
@@ -90,6 +93,7 @@ p{
     top:0;
     left:0;
     right:0;
+    z-index: 1;
 }
 
 .nav-left{
@@ -104,7 +108,6 @@ p{
 }
 
 .lista{
-    list-style: none;
     font-size: 15px;
     display: flex;
     padding: 10px;
@@ -128,6 +131,32 @@ p{
 
 /* Main */
 
+.cont-spunta{
+    display: flex;
+    gap:60px;
+    padding-bottom: 40px;
+}
+
+.spunta{
+    text-align: center;
+    line-height: 15px;
+    display: flex;
+}
+
+.cerchietto-spuntato{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 4px solid #0061ff;
+}
+
+.cerchietto{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
 .row{
     display: flex;
     margin:0 -10px;
@@ -136,7 +165,7 @@ p{
 
 .col{
     min-height: 600px;
-    border: 2px dashed blue;
+    border: 1px solid gray;
     flex-basis: calc(100% / 3 - 20px);
     margin: 10px;
   
@@ -147,6 +176,16 @@ p{
     min-height: 200px;
     margin:10px;
     border: 2px dashed red;
+}
+
+.card-typology{
+    text-align: center;
+    padding:5px ; 
+    border-bottom: 1px solid gray;
+}
+
+.space{
+    padding-left: 5px;
 }
 
 .card-small{
