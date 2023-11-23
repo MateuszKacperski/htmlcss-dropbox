@@ -97,3 +97,26 @@ h1{
     min-height: 200px;
    
 }
+
+.logo-company-box{
+    min-height: 400px;
+    display:flex;
+}
+
+.logo{
+    flex-basis: calc(100% / 3);
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company-description{
+    flex-basis: calc(100% / 3);
+    background-color: fuchsia;
+}
+
+.logo-img{
+    min-height: 50%;
+    flex-basis:50%;
+    border:2px black dashed;
+}
