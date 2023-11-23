@@ -73,7 +73,7 @@ h1{
 
 .row{
     display: flex;
-    margin:0 10px;
+    margin:0 -10px;
     flex-wrap: wrap;
 }   
 
@@ -88,6 +88,7 @@ h1{
 .col-large{
     flex-basis: 100%;
     min-height: 200px;
+    margin:10px;
     border: 2px dashed red;
 }
 
@@ -133,4 +134,38 @@ h1{
     width: 50%;
     background-color: aqua;
     border: 1px black dashed;
+}
+
+.faq{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.questions{
+    min-height: 80px;
+    flex-basis: calc(100% / 3);
+    border-bottom: 2px solid black;
+}
+
+
+
+/*Footer*/
+
+.bg-black{
+    background-color: black;
+    min-height: 300px;
+    color:white;
+}
+
+
+.info-list{
+    display: flex;
+ 
+}
+
+.box-list{
+    min-height: 300px;
+    border: 2px dashed blue;
+    flex-basis: calc(100% / 5);
 }
