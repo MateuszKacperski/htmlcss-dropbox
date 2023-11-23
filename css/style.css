@@ -20,7 +20,15 @@ a{
 .countainer-large{
     max-width: 1080px;
     margin:0 auto;
-    
+}
+
+.img{
+    height: 100%;
+    width: auto;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background: no-repeat;
 }
 
 .countainer-small{
@@ -28,9 +36,16 @@ a{
     margin:0px auto;
 }
 
-h1{
+h1{ 
+    font-size: 55px;
     padding: 30px 0;
+    text-align: center;
+    font-weight: bolder;
 
+}
+
+p{
+    padding-bottom: 20px;
 }
 
 .box{
@@ -38,15 +53,16 @@ h1{
 }
 
 .box-small{
-    background-color: crimson;
     width: 40%;
     min-height: 400px;
+    font-size: 15px;
+    
 }
 
 .box-large{
-    background-color: darkgreen;
     width: 60%;
     min-height: 400px;
+    background-color: hotpink;
 }
 .box-medium{
     min-height: 200px;
@@ -76,6 +92,10 @@ h1{
     width: 30%;
 }
 
+.arrow{
+    font-size: 35px;
+}
+
 .lista{
     list-style: none;
     font-size: 15px;
@@ -96,7 +116,7 @@ h1{
 
 .jumbotron{
     min-height: 600px;
-    background-color: chartreuse;
+    background-color: #B0C4DE;
 }
 
 /* Main */
