@@ -12,6 +12,10 @@ body{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
 .countainer-large{
     max-width: 1080px;
     margin:0 auto;
@@ -47,21 +51,34 @@ h1{
 
 .navbar{
     min-height: 70px;
-    border: 2px dashed black;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-left{
     width: 30%;
-    background-color: aqua;
-    
-   
 }
 .nav-right{
     width: 30%;
-    background-color: aqua;
-   
+}
+
+.lista{
+    list-style: none;
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 100%;
+}
+
+.bottone{
+    background-color: #0061FE;
+    color:white;
+    padding: 5px 10px;
+    border: none;
 }
 
 .jumbotron{
