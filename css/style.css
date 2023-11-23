@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+.countainer{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+
+/* Header*/ 
+
+.navbar{
+    min-height: 100px;
+    border: 2px dashed black;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    width: 30%;
+    min-height: 100px;
+    background-color: aqua;
+    
+   
+}
+.nav-right{
+    width: 30%;
+    min-height: 100px;
+    background-color: aqua;
+   
+}
