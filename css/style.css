@@ -243,30 +243,69 @@ p{
 .logo-company-box{
     min-height: 400px;
     display:flex;
+    margin-top: 80px;
 }
 
 .logo{
     flex-basis: calc(100% / 3);
-    background-color: cornflowerblue;
     display: flex;
     flex-wrap: wrap;
 }
 
 .company-description{
     flex-basis: calc(100% / 3);
-    background-color: fuchsia;
+    background-color: #F5F5F5;
 }
 
 .logo-img{
     min-height: 50%;
     flex-basis:50%;
-    border:2px black dashed;
+}
+
+.logo-position{
+    height: 50%;
+    width: 50%;
+    display: block;
+    position: relative;
+    left:60px;
+    top:50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
 }
 
 .logo-size{
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     display: block;
+}
+
+.bg-green{
+    background-color: #A2D39B;
+}
+
+.bg-firebricks{
+    background-color: #61082B;
+}
+.bg-dogerblue{
+    background-color: #0093ce;
+}
+
+.bg-red{
+    background-color: #FF1C1C;
+}
+
+.bg-crismon{
+    background-color: #d5001f;
+}
+.bg-gray{
+    background-color: #B4D0E7;
+}
+
+.bg-blue{
+    background-color: #0D2481;
+}
+
+.bg-yellow  {
+    background-color: #FFD830;
 }
 
 .trial{
