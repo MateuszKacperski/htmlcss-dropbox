@@ -37,6 +37,14 @@ img{
     margin-bottom: 20px;
 }
 
+.mt-40{
+    margin-top: 40px;
+}
+
+.p-30{
+    padding:30px;
+}
+
 ul{
     list-style: none;
 }
@@ -71,6 +79,13 @@ p{
 
 .box-small{
     width: 40%;
+    min-height: 400px;
+    font-size: 15px;
+    
+}
+
+.box-large{
+    width: 60%;
     min-height: 400px;
     font-size: 15px;
     
@@ -251,7 +266,8 @@ p{
 .questions{
     min-height: 80px;
     flex-basis: calc(100% / 3);
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 
