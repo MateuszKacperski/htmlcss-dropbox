@@ -242,6 +242,8 @@ p{
    
 }
 
+
+
 .logo-company-box{
     min-height: 400px;
     display:flex;
@@ -256,7 +258,7 @@ p{
 }
 
 .company-description{
-    
+    background-color: #F5F5F5;
     padding: 5px 15px;
     font-size: 15px;
 }
@@ -337,7 +339,7 @@ p{
 }
 
 .questions{
-    min-height: 80px;
+    min-height: 50px;
     flex-basis: calc(100% / 3);
     border-bottom: 1px solid black;
     border-top: 1px solid black;
@@ -351,6 +353,7 @@ p{
     background-color: black;
     min-height: 300px;
     color:white;
+    margin-top: 10px;
 }
 
 .lista-bianca{
