@@ -13,6 +13,7 @@ body{
     padding-top: 70px;
 }
 
+/* Regole ancore */
 a{
     text-decoration: none;
     color:black;
@@ -22,12 +23,16 @@ a{
     text-decoration: underline;
     color:#0061ff;
 }
+
+/* immagine contenuta */ 
 img{
     max-width: 100%;
     height: auto;
     display: block;
 }
 
+
+/* bottoni */
 .btn{   background-color: #0061ff;
     color:white;
     padding: 10px 15px;
@@ -51,6 +56,8 @@ img{
     border: 1px solid ;
 }
 
+
+/* Distanze */
 .mb-20{
     margin-bottom: 20px;
 }
@@ -63,10 +70,18 @@ img{
     margin-left:20px;
 }
 
+p{
+    padding-bottom: 20px;
+}
+
+
+/* Liste*/
 ul{
     list-style: none;
 }
 
+
+/* countainer */
 .countainer-large{
     max-width: 1080px;
     margin:0 auto;
@@ -77,6 +92,7 @@ ul{
     margin:0px auto;
 }
 
+/* Titoli*/
 h1{ 
     font-size: 55px;
     padding-top: 80px;
@@ -96,10 +112,7 @@ h3{
     margin-left:20px;
 }
 
-p{
-    padding-bottom: 20px;
-}
-
+/* Box usati nella sezione partner e more*/ 
 .box{
     display: flex;
     position: relative;
@@ -133,12 +146,21 @@ p{
     justify-content: center;
 }
 
-.pl-5{
-    padding-left: 5px;
+/* Linea divisore */
+.linea{
+    margin-top: 40px;
+    height: 1px;
+    width: 50%;
+    border:solid 1px gray;
+    margin-bottom: 20px;
 }
+
 
 /* Header*/ 
 
+
+
+/* Navbar con la divisione di sinistra destra e lista */
 .navbar{
     min-height: 70px;
     background-color: white;
@@ -169,7 +191,7 @@ p{
     line-height: 100%;
 }
 
-
+/*Jumbotron*/
 
 .jumbotron{
     min-height: 600px;
@@ -185,6 +207,10 @@ p{
 
 /* Main */
 
+
+
+
+/* Spunte della sezione operations */
 .cont-spunta{
     display: flex;
     gap:60px;
@@ -210,7 +236,7 @@ p{
     border-radius: 50%;
     border: 2px solid grey;
 }
-
+/* Creazione delle card utilizzate nella sezione plan e operations */
 .row{
     display: flex;
     margin:0 -10px;
@@ -245,8 +271,6 @@ p{
     border-bottom: 1px solid gray;
 }
 
-
-
 .card-small{
     min-height: 600px;
 }
@@ -254,7 +278,7 @@ p{
 .card-large{
     min-height: 200px;
 }
-
+/* Divisione in due box della sezione more*/
 .split-card{
     display: flex;
 }
@@ -267,7 +291,7 @@ p{
     flex-basis: 20%;
 }
 
-
+/* Sezione logo */
 
 .logo-company-box{
     min-height: 400px;
@@ -341,10 +365,7 @@ p{
 }
 
 
-
-
-
-
+/* Sezione trial */
 
 .trial{
     min-height: 200px;
@@ -356,7 +377,7 @@ p{
     font-size: 35px;
 }
 
-
+/* Sezione faq */
 .faq{
     
     display: flex;
@@ -377,13 +398,15 @@ p{
 
 /*Footer*/
 
+
+/* Colore sfondo e dimensioni */
 .bg-black{
     background-color: black;
     min-height: 300px;
     color:white;
     margin-top: 10px;
 }
-
+/* Liste  stile e font*/
 .lista-bianca{
     list-style: none;
     font-size: 12px;
@@ -408,15 +431,7 @@ p{
 }
 
 
-
-.linea{
-    margin-top: 40px;
-    height: 1px;
-    width: 50%;
-    border:solid 1px gray;
-    margin-bottom: 20px;
-}
-
+/* Parte con la selezione lingua */
 .footer-lenguage{
     font-size: 12px;
     padding: 5px;
