@@ -249,31 +249,30 @@ p{
 }
 
 .logo{
-    flex-basis: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .company-description{
-    flex-basis: calc(100% / 3);
-    background-color: #F5F5F5;
+    
     padding: 5px 15px;
     font-size: 15px;
 }
 
 .logo-img{
-    min-height: 50%;
-    flex-basis:50%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .logo-position{
-    height: 50%;
     width: 50%;
-    display: block;
-    position: relative;
-    left:60px;
-    top:50px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
+    filter: invert(100%);
 }
 
 .logo-size{
