@@ -39,6 +39,18 @@ img{
     padding: 5px 15px;
 }
 
+.btn-blue{
+    background-color: #0061ff; 
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid ;
+}
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -116,7 +128,9 @@ p{
 .box-medium{
     min-height: 200px;
     width: 50%;
-    border: 1px black dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pl-5{
@@ -341,10 +355,12 @@ p{
 .questions{
     min-height: 50px;
     flex-basis: calc(100% / 3);
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
+.linea-sopra{
+    border-top: 2px solid black;
+}
 
 
 /*Footer*/
@@ -358,11 +374,15 @@ p{
 
 .lista-bianca{
     list-style: none;
+    font-size: 12px;
 }
 
+.lista-bianca h3{
+    margin:20px 0px;
+}
 
-.a-bianca{
-    color:white;
+.lista-bianca a{
+    color:white;  
 }
 
 .info-list{
@@ -373,4 +393,20 @@ p{
 .box-list{
     min-height: 300px;
     flex-basis: calc(100% / 5);
+}
+
+
+
+.linea{
+    margin-top: 40px;
+    height: 1px;
+    width: 50%;
+    border:solid 1px gray;
+    margin-bottom: 20px;
+}
+
+.footer-lenguage{
+    font-size: 12px;
+    padding: 5px;
+    color: #858B90;
 }
