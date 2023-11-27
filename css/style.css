@@ -253,7 +253,18 @@ p{
 
 .card-large{
     min-height: 200px;
-   
+}
+
+.split-card{
+    display: flex;
+}
+
+.big-split{
+    flex-basis: 80%;
+    
+}
+.small-split{
+    flex-basis: 20%;
 }
 
 
